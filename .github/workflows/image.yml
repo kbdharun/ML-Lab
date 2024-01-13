@@ -1,5 +1,9 @@
 name: Build and Publish Image
 on:
+    push:
+      branches: [ "main" ]
+      paths:
+          - Dockerfile
     workflow_dispatch:
 
 env:
