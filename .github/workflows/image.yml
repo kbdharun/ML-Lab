@@ -19,12 +19,12 @@ jobs:
 
      - name: Build the Docker image
        run: docker image build -f Dockerfile --tag ghcr.io/kbdharun/ml-lab-image:latest .
-    
-    # Push the image to GHCR (Image Registry)
+
      - name: Push To GHCR
        run: |
          docker login ghcr.io -u ${{ env.REGISTRY_USER }} -p ${{ env.REGISTRY_PASSWORD }}
          docker image push "ghcr.io/kbdharun/ml-lab-image:latest"
+
      - uses: sigstore/cosign-installer@v3.3.0
      - name: Sign container image
        run: |

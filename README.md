@@ -16,12 +16,12 @@ This repository contains the programs that I worked out in Machine Learning Labo
 
 ## Prerequisites
 
-Python and packages in `requirements.txt` file preinstalled.
+Python and packages in `requirements.txt` file installed.
 
 > [!NOTE]
 > You can install all the packages in the file using the command `pip install -r requirements.txt`.
 
-## Container Image
+### Container Image
 
 Alternatively, you can use the [container image](https://github.com/kbdharun/ML-Lab/pkgs/container/ml-lab-image) I created with all the packages preinstalled.
 
