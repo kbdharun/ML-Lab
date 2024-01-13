@@ -13,14 +13,16 @@ LABEL org.opencontainers.image.licenses="GPL-3.0-only"
 # Update and upgrade packages
 RUN apk update && apk upgrade
 
-# Install Python, pip, git, and Jupyter Notebook
-RUN apk add --no-cache python3 py3-pip git
+# Install Python, pip, git, and create a virtual environment
+RUN apk add --no-cache python3 py3-pip git && \
+    python3 -m venv /app/venv
 
 # Copy the requirements file into the container at /app
 COPY requirements.txt /app/
 
-# Install Python packages from requirements file
-RUN pip3 install -u --no-cache-dir -r /app/requirements.txt
+# Activate the virtual environment and install Python packages from requirements file
+RUN source /app/venv/bin/activate && \
+    pip install --no-cache-dir -r /app/requirements.txt
 
 # Set the working directory
 WORKDIR /app
