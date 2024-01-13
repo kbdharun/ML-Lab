@@ -25,3 +25,10 @@ jobs:
        run: |
          docker login ghcr.io -u ${{ env.REGISTRY_USER }} -p ${{ env.REGISTRY_PASSWORD }}
          docker image push "ghcr.io/kbdharun/ml-lab-image:latest"
+     - uses: sigstore/cosign-installer@v3.3.0
+     - name: Sign container image
+       run: |
+         cosign sign -y --key env://COSIGN_PRIVATE_KEY ghcr.io/kbdharun/ml-lab-image:latest
+       env:
+          COSIGN_EXPERIMENTAL: false
+          COSIGN_PRIVATE_KEY: ${{ secrets.COSIGN_PRIVATE_KEY }}
