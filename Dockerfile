@@ -20,7 +20,7 @@ RUN apk add --no-cache python3 py3-pip git
 COPY requirements.txt /app/
 
 # Install Python packages from requirements file
-RUN pip3 install --no-cache-dir -r /app/requirements.txt
+RUN pip3 install -u --no-cache-dir -r /app/requirements.txt
 
 # Set the working directory
 WORKDIR /app
