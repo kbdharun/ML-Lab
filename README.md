@@ -1,8 +1,7 @@
 # ML-lab
 
-<a target="_blank" href="https://colab.research.google.com/github/kbdharun/ML-Lab">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a><br><br>
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kbdharun/ML-Lab)
+[![CodeFactor](https://www.codefactor.io/repository/github/kbdharun/ml-lab/badge)](https://www.codefactor.io/repository/github/kbdharun/ml-lab)
 
 This repository contains the programs that I worked out in Machine Learning Laboratory.
 
