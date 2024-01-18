@@ -13,6 +13,12 @@ This repository contains the programs that I worked out in Machine Learning Labo
   - [Introduction to Numpy and Pandas package](https://github.com/kbdharun/ML-Lab/blob/main/Lab1/Numpy_&_Pandas.ipynb)
   - [Insurance Data Analysis](https://github.com/kbdharun/ML-Lab/blob/main/Lab1/ML_Lab1_Insurance.ipynb)
   - [Iris Data Analysis](https://github.com/kbdharun/ML-Lab/blob/main/Lab1/ML_Lab1_Iris.ipynb)
+- Lab 2: Principal Component Analysis
+  - [About PCA](https://github.com/kbdharun/ML-Lab/blob/main/Lab2/README.md)
+  - [PCA based dimensionality reduction on Wine dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab2/PCA-DR-Wine.ipynb)
+  - [PCA using algorithm steps without `sklearn`](https://github.com/kbdharun/ML-Lab/blob/main/Lab2/PCA-using-alg-without-sk.ipynb)
+  - [PCA using `sklearn` on Iris dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab2/PCA-using-sklearn-Iris.ipynb)
+  - [PCA - Wine Quality Classification](https://github.com/kbdharun/ML-Lab/blob/main/Lab2/PCA-Wine-quality-classification.ipynb)
 
 ## Prerequisites
 
