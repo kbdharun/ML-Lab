@@ -1,4 +1,3 @@
-# Use the latest Ubuntu image as the base image
 FROM ubuntu:22.04
 
 # Details about the image
@@ -10,7 +9,7 @@ LABEL org.opencontainers.image.authors="K.B.Dharun Krishna mail@kbdharun.dev"
 LABEL org.opencontainers.image.vendor="kbdharun.dev"
 LABEL org.opencontainers.image.licenses="GPL-3.0-only"
 
-# Install Python, pip, git, and Jupyter Notebook
+# Install Python, Pip and Git
 RUN apt-get update && apt-get install -y python3 python3-pip git \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
