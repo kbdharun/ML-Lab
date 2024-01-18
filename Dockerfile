@@ -1,5 +1,5 @@
 # Use the latest Ubuntu image as the base image
-FROM ubuntu:latest
+FROM ubuntu:22.04
 
 # Details about the image
 LABEL org.opencontainers.image.title="ML Lab Image"
@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y python3 python3-pip git \
 # Copy the requirements file into the container at /app
 COPY requirements.txt /app/
 
-# Install Python packages from requirements file
+# Install Python packages from the requirements file
 RUN pip3 install --no-cache-dir -r /app/requirements.txt
 
 # Set the working directory
