@@ -1,0 +1,5 @@
+{
+    "name": "ML Lab Dev Container",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [8888]
+}
