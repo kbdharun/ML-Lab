@@ -1,5 +1,0 @@
-{
-    "name": "ML Lab Dev Container",
-    "image": "ghcr.io/kbdharun/ml-lab-image:latest",
-    "forwardPorts": [8888]
-}
