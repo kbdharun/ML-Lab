@@ -18,6 +18,9 @@ This repository contains the programs that I worked out in Machine Learning Labo
   - [PCA using algorithm steps without `sklearn`](https://github.com/kbdharun/ML-Lab/blob/main/Lab2/PCA-using-alg-without-sk.ipynb)
   - [PCA using `sklearn` on Iris dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab2/PCA-using-sklearn-Iris.ipynb)
   - [PCA - Wine Quality Classification](https://github.com/kbdharun/ML-Lab/blob/main/Lab2/PCA-Wine-quality-classification.ipynb)
+- Lab 3: K-Nearest Neighbors
+  - [About KNN](https://github.com/kbdharun/ML-Lab/blob/main/Lab3/README.md)
+  - [KNN on Iris dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab3/KNN-using-Iris.ipynb)
 
 ## Prerequisites
 
