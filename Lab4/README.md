@@ -18,69 +18,56 @@ class and between class scatter matrix.
 
 ## Viva Questions
 
-1) **What do you mean by PCA?**
+1) **What is LDA and PCA?**
 
-   Principal Component Analysis (PCA) is a dimensionality reduction technique used in statistics and machine learning to transform a dataset into a new coordinate system, where the variables are uncorrelated, and the most important information is captured in the first few principal components.
+   - LDA (Linear Discriminant Analysis): LDA is a dimensionality reduction and classification technique that maximizes the separation between classes by finding linear combinations of features.
+   - PCA (Principal Component Analysis): PCA is a dimensionality reduction technique that transforms a dataset into a new coordinate system, capturing the most important information in the first few principal components.
 
-2) **Uses of PCA**
+2) **What is the most suitable application of LDA?**
 
-   - Dimensionality reduction
-   - Feature extraction
-   - Noise reduction
-   - Visualization of high-dimensional data
+   LDA is most suitable for classification problems where there are multiple classes, and the goal is to find a linear combination of features that maximizes the separation between classes.
 
-3) **How do you calculate the covariance matrix?**
+3) **What is the difference between PCA and LDA?**
 
-   The covariance matrix is calculated by taking the covariance between each pair of variables in a dataset.
+   - PCA is unsupervised and focuses on capturing overall variance in the data.
+   - LDA is supervised and aims to maximize the separation between classes by finding the linear combination of features.
 
-4) **How do you calculate Eigenvalues and Eigenvectors?**
+4) **How does LDA calculate its maximum separation?**
 
-   The eigenvalues and eigenvectors of a square matrix A can be found by solving the characteristic equation det(A - λI) = 0, where λ is the eigenvalue and I is the identity matrix. The corresponding eigenvector can be obtained by solving (A - λI)v = 0, where v is the eigenvector.
+   LDA calculates the maximum separation by maximizing the ratio of the between-class variance to the within-class variance.
 
-5) **Advantages & Disadvantages of PCA**
+5) **Is LDA a supervised or unsupervised method?**
 
-   - *Advantages:* Dimensionality reduction, noise reduction, visualization.
-   - *Disadvantages:* Loss of interpretability, assumes linear relationships.
+   LDA is a supervised method because it takes into account class labels during its training phase to find the linear combinations of features that best separate the classes.
 
-6) **Why are they called principal components?**
+6) **How do you estimate how much each variable contributes to the separation?**
 
-   The principal components are called so because they represent the directions in the data where the variance is maximized.
+   The contribution of each variable to the separation in LDA is estimated by analyzing the coefficients of the linear combination of features obtained during the LDA process.
 
-7) **Real-time applications of PCA?**
+7) **What metrics can be calculated with LDA?**
 
-   - Face recognition
-   - Image compression
-   - Speech recognition
-   - Financial market analysis
+   Common metrics for LDA include accuracy, precision, recall, F1 score, and the confusion matrix, depending on the specific classification problem.
 
-8) **Who is the counterpart of PCA in deep learning?**
+8) **What do the terms sensitivity and specificity mean?**
 
-   In deep learning, autoencoders are considered counterparts to PCA for dimensionality reduction.
+   - Sensitivity (True Positive Rate): The proportion of actual positive instances correctly identified by the classifier.
+   - Specificity (True Negative Rate): The proportion of actual negative instances correctly identified by the classifier.
 
-9) **Why do we need dimensionality reduction? What are its drawbacks?**
+9) **How do you use Linear Discriminant Analysis as a classifier?**
 
-   Dimensionality reduction is needed to overcome the curse of dimensionality and to improve model efficiency. Drawbacks include potential loss of information and interpretability.
+   LDA can be used as a classifier by projecting new data points onto the linear discriminants obtained during training and assigning them to the class with the closest centroid.
 
-10) **Is it important to standardize before applying PCA?**
+10) **Can LDA be used as a multi-class classifier? If so, how would it work?**
 
-    Yes, it is important to standardize the variables before PCA to give each variable equal weight in the analysis, as PCA is sensitive to the scale of the variables.
+    Yes, LDA can be used as a multi-class classifier. It works by considering each class as a separate entity and finding linear combinations of features that maximize the separation between all classes.
 
-11) **Should one remove highly correlated variables before doing PCA?**
+11) **Can Linear Discriminant Analysis be used for clustering?**
 
-    Removing highly correlated variables before PCA is not necessary, as PCA can handle correlated variables. However, it may be done to simplify interpretation.
+    While LDA is primarily a classification and dimensionality reduction technique, it can be adapted for clustering by treating the linear discriminants as features and applying clustering algorithms.
 
-12) **What will happen when eigenvalues are roughly equal?**
+12) **What are the limitations of LDA?**
 
-    When eigenvalues are roughly equal, it indicates that the data has nearly equal variability along multiple dimensions, making it challenging to identify the most informative components.
-
-13) **How can you evaluate the performance of a dimensionality reduction algorithm on your dataset?**
-
-    Evaluation can be done by comparing the performance of a machine learning model before and after dimensionality reduction using metrics like accuracy, precision, recall, or F1 score.
-
-14) **Explain the Curse of Dimensionality?**
-
-    The curse of dimensionality refers to the challenges and limitations that arise when dealing with high-dimensional data, including increased computational complexity, sparsity of data, and difficulty in visualization and interpretation.
-
-15) **Can we implement Principal Component Analysis for Regression?**
-
-    PCA can be implemented for regression by using the principal components as new features to build a regression model. However, it may result in reduced interpretability of the model.
+    - Assumes normality and equal covariance matrices for classes.
+    - Sensitive to outliers.
+    - May not perform well if classes are not linearly separable.
+    - Requires the number of samples to be greater than the number of features.

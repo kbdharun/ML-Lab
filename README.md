@@ -21,6 +21,10 @@ This repository contains the programs that I worked out in Machine Learning Labo
 - Lab 3: K-Nearest Neighbors
   - [About KNN](https://github.com/kbdharun/ML-Lab/blob/main/Lab3/README.md)
   - [KNN on Iris dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab3/KNN-using-Iris.ipynb)
+- Lab 4: Linear Discriminant Analysis and Linear Regression
+  - [About LDA and LR](https://github.com/kbdharun/ML-Lab/blob/main/Lab4/README.md)
+  - [LDA on Iris dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab4/LDA.ipynb)
+  - [LR on Iris Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab4/LR.ipynb)
 
 ## Prerequisites
 
