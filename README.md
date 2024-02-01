@@ -20,11 +20,14 @@ This repository contains the programs that I worked out in Machine Learning Labo
   - [PCA - Wine Quality Classification](https://github.com/kbdharun/ML-Lab/blob/main/Lab2/PCA-Wine-quality-classification.ipynb)
 - Lab 3: K-Nearest Neighbors
   - [About KNN](https://github.com/kbdharun/ML-Lab/blob/main/Lab3/README.md)
-  - [KNN on Iris dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab3/KNN-using-Iris.ipynb)
+  - [KNN using Iris dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab3/KNN-using-Iris.ipynb)
 - Lab 4: Linear Discriminant Analysis and Linear Regression
   - [About LDA and LR](https://github.com/kbdharun/ML-Lab/blob/main/Lab4/README.md)
   - [LDA on Iris dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab4/LDA.ipynb)
-  - [LR on Iris Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab4/LR.ipynb)
+  - [LR on Single Dataset (Iris)](https://github.com/kbdharun/ML-Lab/blob/main/Lab4/LR-on-single-dataset.ipynb)
+  - [LR on Multiple Datasets (Iris, Wine)](https://github.com/kbdharun/ML-Lab/blob/main/Lab4/LR-on-multiple-datasets.ipynb)
+
+---
 
 ## Prerequisites
 
