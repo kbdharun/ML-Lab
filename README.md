@@ -26,6 +26,9 @@ This repository contains the programs that I worked out in Machine Learning Labo
   - [LDA on Iris dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab4/LDA.ipynb)
   - [LR on Single Dataset (Iris)](https://github.com/kbdharun/ML-Lab/blob/main/Lab4/LR-on-single-dataset.ipynb)
   - [LR on Multiple Datasets (Iris, Wine)](https://github.com/kbdharun/ML-Lab/blob/main/Lab4/LR-on-multiple-datasets.ipynb)
+- Lab 5: Logistic Regression
+  - [About LR](https://github.com/kbdharun/ML-Lab/blob/main/Lab5/README.md)
+  - [LR on Multiple Datasets (Iris, Wine)](https://github.com/kbdharun/ML-Lab/blob/main/Lab5/LR.ipynb)
 
 ---
 
