@@ -29,31 +29,45 @@ probability of a hypothesis when prior knowledge is available.
 ## Viva Questions
 
 1. **What mathematical concept Naive Bayes is based on?**
+
    **Ans.** Naive Bayes is based on the mathematical concept of Bayes' Theorem.
 
 2. **What are the different types of Naive Bayes classifiers?**
+
    **Ans.** Different types of Naive Bayes classifiers include Gaussian Naive Bayes, Multinomial Naive Bayes, and Bernoulli Naive Bayes.
 
 3. **Is Naive Bayes a classification algorithm or regression algorithm?**
+
    **Ans.** Naive Bayes is a classification algorithm.
 
 4. **What are some benefits of Naive Bayes?**
+
    **Ans.** Benefits of Naive Bayes include simplicity, efficiency, and effectiveness in high-dimensional spaces.
 
 5. **What are the cons of Naive Bayes classifier?**
+
    **Ans.** Cons of Naive Bayes include the assumption of independence between features, which may not hold true in all cases.
 
 6. **What are the applications of Naive Bayes?**
+
    **Ans.** Naive Bayes is used in applications like spam filtering, sentiment analysis, and document categorization.
 
 7. **Is Naive Bayes a discriminative classifier or generative classifier?**
+
    **Ans.** Naive Bayes is a generative classifier.
 
 8. **What is the formula given by Bayes theorem?**
-   **Ans.** Bayes' Theorem is given by \( P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)} \).
+
+   **Ans.** Bayes' Theorem is given by:
+
+$`P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}`$
+
+where P(A|B) is the probability of A given B, P(B|A) is the probability of B given A, P(A) is the probability of A, and P(B) is the probability of B.
 
 9. **What is posterior probability and prior probability in Naïve Bayes?**
+
    **Ans.** In Naïve Bayes, posterior probability is the probability of the class given the features, and prior probability is the probability of the class without considering the features.
 
 10. **What’s the difference between Generative Classifiers and Discriminative Classifiers?**
+
     **Ans.** Generative classifiers model the joint probability distribution of features and labels, while discriminative classifiers model the conditional probability of labels given features.
