@@ -9,3 +9,4 @@ pandas
 plotly
 seaborn
 scikit-learn
+scipy
