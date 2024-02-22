@@ -1,7 +1,10 @@
+kaggle
 matplotlib
 nbconvert
+nltk
 notebook
 numpy
+opendatasets
 pandas
 plotly
 seaborn

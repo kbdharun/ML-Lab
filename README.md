@@ -29,6 +29,10 @@ This repository contains the programs that I worked out in Machine Learning Labo
 - Lab 5: Logistic Regression
   - [About LR](https://github.com/kbdharun/ML-Lab/blob/main/Lab5/README.md)
   - [LR on Multiple Datasets (Iris, Wine)](https://github.com/kbdharun/ML-Lab/blob/main/Lab5/LR.ipynb)
+- Lab 6: Naive Bayes Classifier
+  - [About NBC](https://github.com/kbdharun/ML-Lab/blob/main/Lab6/README.md)
+  - [NBC - Basic Program](https://github.com/kbdharun/ML-Lab/blob/main/Lab6/NBC.ipynb)
+  - [NBC on Iris dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab6/NBC-Iris.ipynb)
 
 ---
 
