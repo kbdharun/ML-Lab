@@ -33,7 +33,8 @@ This repository contains the programs that I worked out in Machine Learning Labo
   - [About NBC](https://github.com/kbdharun/ML-Lab/blob/main/Lab6/README.md)
   - [NBC - Basic Program](https://github.com/kbdharun/ML-Lab/blob/main/Lab6/NBC.ipynb)
   - [NBC on Iris Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab6/NBC-Iris.ipynb)
-  - [NBC Sentiment Analysis on IMDB Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab6/NBC-sentiment-analysis-IMDB.ipynb)
+  - [NBC Sentiment Analysis on IMDB Dataset (Short program)](https://github.com/kbdharun/ML-Lab/blob/main/Lab6/imdb-dataset-nbc-short-program.ipynb) (for exam)
+  - [NBC Sentiment Analysis on IMDB Dataset (Detailed program)](https://github.com/kbdharun/ML-Lab/blob/main/Lab6/NBC-sentiment-analysis-IMDB.ipynb) (for understanding)
 
 ---
 
