@@ -38,6 +38,10 @@ This repository contains the programs that I worked out in Machine Learning Labo
 
 ---
 
+- Lab 7: Support Vector Machine
+  - [About SVM](https://github.com/kbdharun/ML-Lab/blob/main/Lab7/README.md)
+  - [SVM Program on Breast Cancer Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab7/svm-breast-cancer.ipynb)
+
 ## Prerequisites
 
 Python and packages in `requirements.txt` file installed.
