@@ -1,4 +1,5 @@
 kaggle
+keras
 matplotlib
 nbconvert
 nltk
@@ -10,3 +11,4 @@ plotly
 seaborn
 scikit-learn
 scipy
+tensorflow

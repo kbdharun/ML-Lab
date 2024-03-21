@@ -43,13 +43,24 @@ This repository contains the programs that I worked out in Machine Learning Labo
   - [SVM Program on Breast Cancer Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab7/svm-breast-cancer.ipynb)
   - [SVM Program for Linear and non-Linear Classification Tasks on Breast Cancer Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab7/SVM.ipynb)
   - [SVM Program for Linear and non-Linear Classification Tasks on Iris Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab8/SVM.ipynb)
+- Lab 9: Multi-Layer Feed Forward Neural Network and Regularization Techniques
+  - [About MLFFNN and Regularization Techniques](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/README.md)
+  - [MLFFNN on Breast Cancer Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/FFNN.ipynb)
+  - [MLFFNN on MNIST Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/FFNN-Sample.ipynb)
+  - [Regularization Techniques on Breast Cancer Dataset]()
 
 ## Prerequisites
 
 Python and packages in `requirements.txt` file installed.
 
 > [!NOTE]
-> You can install all the packages in the file using the command `pip install -r requirements.txt`.
+> You can install all the required packages using the command `pip install -r requirements.txt`.
+
+### Working with Conda
+
+If you are using `conda` to manage your environments, you can create a new environment for this repository with the command `conda create -n ml-lab` and activate it with the command `conda activate ml-lab`.
+
+Then, you can install all the required packages using the command `conda install --file requirements.txt`.
 
 ### Container Image
 
