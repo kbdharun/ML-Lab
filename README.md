@@ -45,9 +45,11 @@ This repository contains the programs that I worked out in Machine Learning Labo
   - [SVM Program for Linear and non-Linear Classification Tasks on Iris Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab8/SVM.ipynb)
 - Lab 9: Multi-Layer Feed Forward Neural Network and Regularization Techniques
   - [About MLFFNN and Regularization Techniques](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/README.md)
-  - [MLFFNN on Breast Cancer Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/FFNN.ipynb)
-  - [MLFFNN on MNIST Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/FFNN-Sample.ipynb)
-  - [Regularization Techniques on Breast Cancer Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/Regularization.ipynb)
+  - [MLFFNN on Breast Cancer Dataset (Text)](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/FFNN-Text.ipynb) (not for exam)
+  - [MLFFNN on MNIST Dataset (Image) - Short](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/FFNN-MNIST-Short.ipynb)
+  - [MLFFNN on MNIST Dataset (Image) - Full](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/FFNN-MNIST-Full.ipynb)
+  - [Regularization Techniques on Breast Cancer Dataset (Text)](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/Regularization.ipynb) (not for exam)
+  - [Regularization Techniques on MNIST Dataset (Image)](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/Regularization-MNIST.ipynb)
 
 ## Prerequisites
 
