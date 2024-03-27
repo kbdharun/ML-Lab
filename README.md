@@ -48,7 +48,7 @@ This repository contains the programs that I worked out in Machine Learning Labo
   - [MLFFNN on Breast Cancer Dataset (Text)](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/FFNN-Text.ipynb) (not for exam)
   - [MLFFNN on MNIST Dataset (Image) - Short](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/FFNN-MNIST-Short.ipynb)
   - [MLFFNN on MNIST Dataset (Image) - Full](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/FFNN-MNIST-Full.ipynb)
-  - [Regularization Techniques on Breast Cancer Dataset (Text)](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/Regularization.ipynb) (not for exam)
+  - [Regularization Techniques on Breast Cancer Dataset (Text)](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/Regularization-Text.ipynb) (not for exam)
   - [Regularization Techniques on MNIST Dataset (Image)](https://github.com/kbdharun/ML-Lab/blob/main/Lab9/Regularization-MNIST.ipynb)
 
 ## Prerequisites
