@@ -1,3 +1,4 @@
+hmmlearn
 kaggle
 keras
 matplotlib
