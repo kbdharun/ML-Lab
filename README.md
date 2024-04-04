@@ -50,8 +50,13 @@ This repository contains the programs that I worked out in Machine Learning Labo
   - [MLFFNN on MNIST Dataset (Image) - Full](https://github.com/kbdharun/ML-Lab/blob/main/Lab09/FFNN-MNIST-Full.ipynb)
   - [Regularization Techniques on Breast Cancer Dataset (Text)](https://github.com/kbdharun/ML-Lab/blob/main/Lab09/Regularization-Text.ipynb) (not for exam)
   - [Regularization Techniques on MNIST Dataset (Image)](https://github.com/kbdharun/ML-Lab/blob/main/Lab09/Regularization-MNIST.ipynb)
-- Lab 10, 11: Artificial Neural Network, Convolutional Neural Network; Hidden Markov Model based techinque
-  - [About ANN, CNN & HMM]()
+- Lab 10, 11: Artificial Neural Network, Convolutional Neural Network; Hidden Markov Model based techinques (Viterbi Algorithm, Trellis, Long Short Term Memory)
+  - [About ANN, CNN & HMM](/Lab10,11/README.md)
+  - [ANN on CIFAR10 Dataset](/Lab10,11/Img-Classification-ANN-CIFAR10.ipynb)
+  - [CNN on CIFAR10 Dataset](/Lab10,11/Img-Classification-CNN-CIFAR10.ipynb) ([Alternative program](/Lab10,11/NN_Image_Classifications.ipynb))
+  - [HMM - Viterbi Algorithm on own Weather Dataset](/Lab10,11/HMM.ipynb) ([Alternative program](/Lab10,11/HMM-sample.ipynb))
+  - [HMM - Viterbi Algorithm (with Trellis) on Iris Dataset](/Lab10,11/HMM-Viterbi,Trellis.ipynb)
+  - [HMM - LSTM Algorithm on Iris Dataset](/Lab10,11/HMM-LSTM.ipynb)
 
 ## Prerequisites
 
