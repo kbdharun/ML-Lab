@@ -33,7 +33,7 @@ This repository contains the programs that I worked out in Machine Learning Labo
   - [About NBC](https://github.com/kbdharun/ML-Lab/blob/main/Lab06/README.md)
   - [NBC - Basic Program](https://github.com/kbdharun/ML-Lab/blob/main/Lab06/NBC.ipynb)
   - [NBC on Iris Dataset](https://github.com/kbdharun/ML-Lab/blob/main/Lab06/NBC-Iris.ipynb)
-  - [NBC Sentiment Analysis on IMDB Dataset (Short program)](https://github.com/kbdharun/ML-Lab/blob/main/Lab6/imdb-dataset-nbc-short-program.ipynb) (for exam)
+  - [NBC Sentiment Analysis on IMDB Dataset (Short program)](https://github.com/kbdharun/ML-Lab/blob/main/Lab06/NBC-IMDB-short-program.ipynb) (for exam)
   - [NBC Sentiment Analysis on IMDB Dataset (Detailed program)](https://github.com/kbdharun/ML-Lab/blob/main/Lab06/NBC-sentiment-analysis-IMDB.ipynb) (for understanding)
 
 ---
@@ -50,7 +50,8 @@ This repository contains the programs that I worked out in Machine Learning Labo
   - [MLFFNN on MNIST Dataset (Image) - Full](https://github.com/kbdharun/ML-Lab/blob/main/Lab09/FFNN-MNIST-Full.ipynb)
   - [Regularization Techniques on Breast Cancer Dataset (Text)](https://github.com/kbdharun/ML-Lab/blob/main/Lab09/Regularization-Text.ipynb) (not for exam)
   - [Regularization Techniques on MNIST Dataset (Image)](https://github.com/kbdharun/ML-Lab/blob/main/Lab09/Regularization-MNIST.ipynb)
-- Lab 10: Convolutional Neural Network
+- Lab 10, 11: Artificial Neural Network, Convolutional Neural Network; Hidden Markov Model based techinque
+  - [About ANN, CNN & HMM]()
 
 ## Prerequisites
 
@@ -62,6 +63,9 @@ Python and packages in `requirements.txt` file installed.
 ### Working with Conda
 
 If you are using `conda` to manage your environments, you can create a new environment for this repository with the command `conda create -n ml-lab` and activate it with the command `conda activate ml-lab`.
+
+> [!TIP]
+> For faster environment solving in Conda, I would suggesting using the `libmamba` solver. You can set it as the default solver using the command `conda config --set solver libmamba`.
 
 Then, you can install all the required packages using the command `conda install --file requirements.txt`.
 
