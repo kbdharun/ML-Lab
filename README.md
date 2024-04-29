@@ -1,7 +1,6 @@
 # ML-lab
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kbdharun/ML-Lab)
-[![CodeFactor](https://www.codefactor.io/repository/github/kbdharun/ml-lab/badge)](https://www.codefactor.io/repository/github/kbdharun/ml-lab)
 
 This repository contains the programs that I worked out in Machine Learning Laboratory.
 
@@ -59,6 +58,7 @@ This repository contains the programs that I worked out in Machine Learning Labo
   - [HMM - Viterbi Algorithm on own Weather Dataset](Lab10,11/HMM.ipynb) ([Alternative program](Lab10,11/HMM-sample.ipynb))
   - [HMM - Viterbi Algorithm (with Trellis) on Iris Dataset](Lab10,11/HMM-Viterbi,Trellis.ipynb)
   - [HMM - LSTM Algorithm on Iris Dataset](Lab10,11/HMM-LSTM.ipynb) (not for exam)
+- [Complete ML Codes Program](ML_complete_codes.ipynb)
 
 ## Prerequisites
 
